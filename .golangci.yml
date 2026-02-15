@@ -1,0 +1,11 @@
+linters-settings:
+  mylinter:
+    path: ./mylinter.exe
+    type: external
+
+linters:
+  enable:
+    - mylinter
+
+
+version: 2
